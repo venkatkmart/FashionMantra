@@ -1,0 +1,39 @@
+{
+  "name": "mywallet",
+  "version": "1.0.0",
+  "description": "this is a financial management app",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirantrainings/mywallet.git"
+  },
+  "keywords": [
+    "node",
+    "web",
+    "app"
+  ],
+  "author": "kiran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirantrainings/mywallet/issues"
+  },
+  "homepage": "https://github.com/kirantrainings/mywallet#readme",
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "connect-flash": "^0.1.1",
+    "ejs": "^2.4.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.0",
+    "mongoose": "^4.5.5",
+    "morgan": "^1.7.0",
+    "multer": "^1.1.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "request": "^2.74.0",
+    "underscore": "^1.8.3"
+  }
+}
